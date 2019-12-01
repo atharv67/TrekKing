@@ -1,0 +1,85 @@
+
+#company{
+  font-family: 'Pacifico', cursive;
+  font-size: 2em;
+}
+nav{
+  color: white;
+}
+.but{
+  color: white;
+  border-color: white;
+}
+#title{
+  font-family: 'Pacifico', cursive;
+  font-size: 5em;
+  text-align: center;
+
+}
+#box{
+  margin-left: 500px ;
+  margin-top: 170px;
+  width: 430px;
+  height: 500px;
+}
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.box{
+  width: 450px;
+  padding: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: black;
+  text-align: center;
+  box-shadow: 5px 10px 18px #888888;
+  color: white;
+}
+.box h1{
+  color: white;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.box input[type = "text"],.box input[type = "date"]{
+  border:0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid white;
+  padding: 14px 10px;
+  width: 200px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+}
+.box input[type = "text"]:focus,.box input[type = "date"]:focus{
+  width: 280px;
+  border-color: blue;
+}
+.box input[type = "submit"]{
+  border:0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid blue;
+  padding: 14px 40px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+.box input[type = "submit"]:hover{
+  background: blue;
+}
+span{
+  color: red;
+  size: 0.5em;
+}

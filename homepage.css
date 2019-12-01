@@ -1,0 +1,28 @@
+#company{
+	font-family: 'Pacifico', cursive;
+	font-size: 2em;
+}
+nav{
+	color: white;
+}
+
+.cont {  position: relative; }
+
+.cont:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background-image: url('home.jpg');
+   opacity: 0.3;
+   background-size: 100% 100%;
+}
+
+.content {
+	font-size: 22px;
+    position: relative; 
+    z-index: 2;
+}​

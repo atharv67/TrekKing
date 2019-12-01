@@ -1,0 +1,41 @@
+#company{
+  font-family: 'Pacifico', cursive;
+  font-size: 2em;
+}
+nav{
+  color: white;
+}
+.but{
+  color: white;
+  border-color: white;
+}
+#title{
+  font-family: 'Pacifico', cursive;
+  font-size: 5em;
+  text-align: center;
+
+}
+#box{
+  margin-left: 500px ;
+  margin-top: 170px;
+  width: 430px;
+  height: 500px;
+}
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+h3{
+	text-align: center;
+	color: blue
+}
+/*p{*/
+	/*margin-top: 20px ;*/
+	/*margin-left: 40px;*/
+	/*margin-right: 40px;*/
+
+.info{
+	box-shadow: 5px 10px 18px #888888;
+}

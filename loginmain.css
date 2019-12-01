@@ -1,0 +1,75 @@
+#company{
+	font-family: 'Pacifico', cursive;
+	font-size: 2em;
+}
+nav{
+	color: white;
+}
+.but{
+	color: white;
+	border-color: white;
+}
+#title{
+	font-family: 'Pacifico', cursive;
+	font-size: 5em;
+	text-align: center;
+
+}
+span{
+	color: red;
+	size: 0.5em;
+}
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: white;
+}
+.box{
+	color: white;
+}
+.form1{
+	background-color: black;
+	width: 1000px;
+	padding-left:50px;
+	padding-top: 35px ;
+	padding-bottom: 20px;
+}
+.box input:focus,.box select:focus{
+	border-color: blue;
+}
+#msform .action-button {
+	width: 100px;
+	background: #5086B5;
+	font-weight: bold;
+	color: white;
+	border: 0 none;
+	border-radius: 5px;
+	cursor: pointer;
+	padding: 10px 5px;
+
+}
+#msform .action-button:hover, #msform .action-button:focus {
+	box-shadow: 0 0 0 2px white, 0 0 0 3px #27AE60;
+}
+.back {  position: relative; }
+
+.back:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background-image: url("signupimg.jpg");
+   opacity: 0.7;
+   background-size: 100% 100%;
+}
+
+.content {
+
+    position: relative;
+    z-index: 2;
+    margin-left: 250px;
+}​
